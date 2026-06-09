@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan - Arkana & Amara</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="cover" class="cover-section">
+        <div class="batik-ornament ornament-top">
+            <svg viewBox="0 0 100 20" preserveAspectRatio="none">
+                <path d="M0,0 C30,10 70,10 100,0 L100,20 L0,20 Z" fill="#4A2E1B"/>
+                <path d="M0,10 Q25,0 50,10 T100,10" fill="none" stroke="#D4AF37" stroke-width="0.5"/>
+            </svg>
+        </div>
+
+        <div class="cover-content">
+            <p class="sub-title">Walimatul 'Ursy</p>
+            <h1 class="main-title">Arkana & Amara</h1>
+            <p class="date-cover">07 Juli 2027</p>
+            
+            <div class="guest-box">
+                <p>Kepada Yth. Bapak/Ibu/Saudara/i:</p>
+                <div id="nama-tamu" class="guest-name">Nama Tamu</div>
+                <p class="small-text">*Mohon maaf bila ada kesalahan penulisan nama/gelar</p>
+            </div>
+
+            <button id="btn-buka" class="btn-gold">
+                <i class="fa-solid fa-envelope-open-text"></i> Buka Undangan
+            </button>
+        </div>
+
+        <div class="batik-ornament ornament-bottom">
+            <svg viewBox="0 0 100 20" preserveAspectRatio="none">
+                <path d="M0,20 C30,10 70,10 100,20 L100,0 L0,0 Z" fill="#4A2E1B"/>
+                <path d="M0,10 Q25,20 50,10 T100,10" fill="none" stroke="#D4AF37" stroke-width="0.5"/>
+            </svg>
+        </div>
+    </section>
+
+    <main id="main-content" class="hidden">
+
+        <nav class="floating-nav">
+            <a href="#mempelai" class="nav-item active"><i class="fa-solid fa-heart"></i><span>Mempelai</span></a>
+            <a href="#acara" class="nav-item"><i class="fa-solid fa-calendar-days"></i><span>Acara</span></a>
+            <a href="#galeri" class="nav-item"><i class="fa-solid fa-images"></i><span>Galeri</span></a>
+            <a href="#hadiah" class="nav-item"><i class="fa-solid fa-gift"></i><span>Hadiah</span></a>
+            <a href="#rsvp" class="nav-item"><i class="fa-solid fa-comment-dots"></i><span>RSVP</span></a>
+        </nav>
+
+        <section id="mempelai" class="fade-in-element">
+            <div class="container">
+                <div class="frame-flower">
+                    <p class="quote-intro">"Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya..."</p>
+                </div>
+                
+                <h2 class="section-title">Mempelai Pernikahan</h2>
+                
+                <div class="mempelai-flex">
+                    <div class="mempelai-card">
+                        <div class="img-frame">
+                            <img src="https://drive.google.com/uc?export=view&id=1zyDvdZi9dAm3wyC0jnQGmL2H6QZDkDQX" alt="Arkana Putra Wijaya">
+                        </div>
+                        <h3>Arkana Putra Wijaya</h3>
+                        <p class="ortu">Putra dari Bapak Wijaya Kusuma <br>& Ibu Indriyani Kusuma</p>
+                    </div>
+
+                    <div class="ampersand">&</div>
+
+                    <div class="mempelai-card">
+                        <div class="img-frame">
+                            <img src="https://drive.google.com/uc?export=view&id=1L0Hd6zDJR_4xO9MMo6hqfEcI_p-Sh6q_" alt="Amara Putri Nafisa">
+                        </div>
+                        <h3>Amara Putri Nafisa</h3>
+                        <p class="ortu">Putri dari Bapak Bambang Supriatna <br>& Ibu Salma Ayuningtias</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="acara" class="fade-in-element bg-tint">
+            <div class="container">
+                <h2 class="section-title">Waktu Menuju Bahagia</h2>
+                
+                <div class="countdown-container">
+                    <div class="countdown-box"><span id="days">00</span><p>Hari</p></div>
+                    <div class="countdown-box"><span id="hours">00</span><p>Jam</p></div>
+                    <div class="countdown-box"><span id="minutes">00</span><p>Menit</p></div>
+                    <div class="countdown-box"><span id="seconds">00</span><p>Detik</p></div>
+                </div>
+
+                <div class="acara-grid">
+                    <div class="acara-card">
+                        <div class="card-icon"><i class="fa-solid fa-hands-praying"></i></div>
+                        <h3>Akad Nikah</h3>
+                        <div class="line-separator"></div>
+                        <p class="acara-detail"><i class="fa-solid fa-calendar"></i> Rabu, 07 Juli 2027</p>
+                        <p class="acara-detail"><i class="fa-solid fa-clock"></i> 08.00 WIB - Selesai</p>
+                        <p class="acara-detail"><i class="fa-solid fa-location-dot"></i> <strong>Masjid Al-Jabbar</strong><br>Bandung</p>
+                    </div>
+
+                    <div class="acara-card">
+                        <div class="card-icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+                        <h3>Resepsi</h3>
+                        <div class="line-separator"></div>
+                        <p class="acara-detail"><i class="fa-solid fa-calendar"></i> Rabu, 07 Juli 2027</p>
+                        <p class="acara-detail"><i class="fa-solid fa-clock"></i> 10.00 WIB - Selesai</p>
+                        <p class="acara-detail"><i class="fa-solid fa-location-dot"></i> <strong>Tritan Point</strong><br>Bandung</p>
+                    </div>
+                </div>
+
+                <div class="maps-container">
+                    <h3>Lokasi Acara</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.5512248558485!2d107.70138927587524!3d-6.944111367975876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c26bfbf46487%3A0x6e25679540b3ffb4!2sMasjid%20Raya%20Al%20Jabbar!5e0!3m2!1sid!2sid!4v1710000000000!5m2!1sid!2sid" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <br>
+                    <a href="https://maps.app.goo.gl/9ZpL9L27e7g7fG7x8" target="_blank" class="btn-gold btn-sm"><i class="fa-solid fa-map-location-dot"></i> Buka Google Maps</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeri" class="fade-in-element">
+            <div class="container">
+                <h2 class="section-title">Galeri Kebersamaan</h2>
+                <div class="gallery-layout">
+                    <div class="gallery-large">
+                        <img src="https://drive.google.com/uc?export=view&id=10UcOIRDjIFugh5AlWQit8cd7h9Zvpfyg" alt="Foto Galeri Utama">
+                    </div>
+                    <div class="gallery-thumbs">
+                        <div class="thumb-img"><img src="https://drive.google.com/uc?export=view&id=1xVeOjMRppsdhqqC6EDR9rtOZ4KYtZXoi" alt="Galeri Kecil 1"></div>
+                        <div class="thumb-img"><img src="https://drive.google.com/uc?export=view&id=1BH4bLVK76oC3el9wFEdTSvqpwUHBjop9" alt="Galeri Kecil 2"></div>
+                        <div class="thumb-img"><img src="https://drive.google.com/uc?export=view&id=1GYmfubkkj0Tnrs3_EFQzL9brFiSxA0Z8" alt="Galeri Kecil 3"></div>
+                        <div class="thumb-img"><img src="https://drive.google.com/uc?export=view&id=1c182wf_AKv1eB-Weu-MqbZf02MlZQhJr" alt="Galeri Kecil 4"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hadiah" class="fade-in-element bg-tint">
+            <div class="container">
+                <h2 class="section-title">Kado Digital</h2>
+                <p class="gift-intro">Doa restu Anda merupakan karunia terindah bagi kami. Namun jika ingin memberikan tanda kasih, Anda dapat menyalurkannya melalui:</p>
+                
+                <div class="gift-flex">
+                    <div class="gift-card">
+                        <div class="bank-logo">BANK BRI</div>
+                        <p class="account-number" id="no-rek">12202010000</p>
+                        <p class="account-name">a.n. Amara Putri Nafisa</p>
+                        <button class="btn-gold btn-sm" onclick="salinRekening()"><i class="fa-regular fa-copy"></i> Salin No. Rekening</button>
+                    </div>
+
+                    <div class="gift-card">
+                        <div class="gift-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+                        <h3>Kirim Kado Fisik</h3>
+                        <p class="address-details">
+                            <strong>Rumah Mempelai Wanita</strong><br>
+                            Kota Bandung, Jawa Barat<br>
+                            <i class="fa-solid fa-phone"></i> +6288176318971
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rsvp" class="fade-in-element">
+            <div class="container">
+                <div class="rsvp-grid">
+                    <div class="form-box">
+                        <h3>Konfirmasi Kehadiran (RSVP)</h3>
+                        <form id="form-rsvp">
+                            <div class="form-group">
+                                <label for="rsvp-name">Nama Anda</label>
+                                <input type="text" id="rsvp-name" required placeholder="Masukkan nama...">
+                            </div>
+                            <div class="form-group">
+                                <label for="rsvp-status">Konfirmasi</label>
+                                <select id="rsvp-status" required>
+                                    <option value="" disabled selected>-- Pilih Kehadiran --</option>
+                                    <option value="Hadir">Hadir</option>
+                                    <option value="Tidak Hadir">Tidak Hadir</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="rsvp-tamu">Jumlah Tamu</label>
+                                <select id="rsvp-tamu">
+                                    <option value="1">1 Orang</option>
+                                    <option value="2">2 Orang</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn-gold w-100">Kirim RSVP</button>
+                        </form>
+                    </div>
+
+                    <div class="form-box">
+                        <h3>Kirim Ucapan & Doa</h3>
+                        <form id="form-ucapan">
+                            <div class="form-group">
+                                <label for="ucapan-nama">Nama</label>
+                                <input type="text" id="ucapan-nama" required placeholder="Nama Anda...">
+                            </div>
+                            <div class="form-group">
+                                <label for="ucapan-pesan">Ucapan / Doa Restu</label>
+                                <textarea id="ucapan-pesan" rows="4" required placeholder="Tulis doa restu Anda di sini..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-gold w-100">Kirim Ucapan</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="ucapan-display-container">
+                    <h3>Doa Restu Sahabat & Keluarga</h3>
+                    <div id="container-ucapan" class="ucapan-feed">
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-batik">
+                <svg viewBox="0 0 100 10" preserveAspectRatio="none">
+                    <path d="M0,0 Q25,10 50,0 T100,0 L100,10 L0,10 Z" fill="#2E1A0C"/>
+                </svg>
+            </div>
+            <div class="footer-content">
+                <p class="quran-quote">"Semoga Allah menyatukan kalian berdua dalam kebaikan dan keberkahan."</p>
+                <h3 class="footer-names">Arkana & Amara</h3>
+                <p class="copyright">&copy; 2027 Arkana & Amara Wedding. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
