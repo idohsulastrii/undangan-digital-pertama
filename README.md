@@ -1,4 +1,3 @@
-# undangan-digital-pertama
 # 🕊️ Prototipe Undangan Digital Modern
 
 Proyek ini adalah riset awal untuk pembuatan jasa website undangan virtual dan katalog toko digital dengan konsep estetik, modern, dan berlayer (*glassmorphism*).
